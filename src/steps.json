@@ -1,0 +1,28 @@
+[
+	{	"step":1,
+		"type":"code",
+		"lang":"html",
+		"code":"<!-- we are starting a webpage from an opening tag of HTML -->\n<html>\n\n</html>\n <!-- we are ending a webpage with a closing tag of HTML -->"
+	},{
+		"step":2,
+		"type":"code",
+		"lang":"html",
+		"code":"<!-- we are starting a webpage from an opening tag of HTML -->\n<html>\n<!-- HEAD section is used for meta information -->\n<head>\n\n</head>\n</html>\n <!-- we are ending a webpage with a closing tag of HTML -->"
+	},{
+		"step":3,
+		"type":"code",
+		"lang":"html",
+		"code":"<!-- we are starting a webpage from an opening tag of HTML -->\n<html>\n<!-- HEAD section is used for meta information -->\n<head>\n</head>\n<body>\n\t<!-- BODY section is used for displaying the UI -->\n</body>\n</html>\n <!-- we are ending a webpage with a closing tag of HTML -->"
+	},{
+		"step":4,
+		"type":"code",
+		"lang":"html",
+		"code":"<!-- we are starting a webpage from an opening tag of HTML -->\n<html>\n<!-- HEAD section is used for meta information -->\n<head>\n</head>\n<!-- BODY section is used for displaying the UI -->\n<body>\n<!-- This is heading 1 added with h1 tag -->\n\t<h1>\n\t\tthis is a heading 1\n\t</h1>\n</body>\n</html>\n <!-- we are ending a webpage with a closing tag of HTML -->"
+	},{
+		"step":5,
+		"type":"exercise",
+		"lang":"html",
+		"code":"<!-- we are starting a webpage from an opening tag of HTML -->\n<html>\n<!-- HEAD section is used for meta information -->\n<head>\n</head>\n<!-- BODY section is used for displaying the UI -->\n<body>\n\t<!-- start writing code from here -->\n\n\t<!-- end coding here -->\n</body>\n</html>\n <!-- we are ending a webpage with a closing tag of HTML -->",
+		"algo":""
+	}
+]

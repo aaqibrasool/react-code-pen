@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from "react-router";
+import { AppStyles } from "./app.styles";
+import GlobalStyles from "./globalStyles";
+import Home from "./Pages/Home/Home";
+import Lesson from "./Pages/lesson/Lesson";
+import Login from "./Pages/login/Login";
+import PrivateRoute from './components/private-route/PrivateRoute'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppStyles>
+      <GlobalStyles />
+      <Switch>
+        <PrivateRoute exact path='/' component={Home}/>
+        <Route exact path='/login' component={Login} />
+        <PrivateRoute exact path='/:lesson' component={Lesson}/>
+      </Switch>
+    </AppStyles>
   );
 }
 
